@@ -1,22 +1,9 @@
 binaries:
-  - ruby-1.9.3-p551
-  - ruby-2.0.0-p648
-  - ruby-2.1.8
-  - ruby-2.2.4
-  - ruby-2.3.0
+  - ruby-2.2.3
+  - ruby-2.2.6
+  - ruby-2.3.1
+  - ruby-2.3.3
 distributions:
-  centos_59_64bit: https://atlas.hashicorp.com/boxcutter/boxes/centos59/versions/1.0.10/providers/virtualbox.box
-  centos_64_64bit: https://atlas.hashicorp.com/boxcutter/boxes/centos64/versions/1.0.10/providers/virtualbox.box
-  debian_77_32bit_wheezy: https://atlas.hashicorp.com/boxcutter/boxes/debian77-i386/versions/1.0.9/providers/virtualbox.box
-  debian_77_64bit_wheezy: https://vagrantcloud.com/boxcutter/boxes/debian77/versions/1.0.9/providers/virtualbox.box
-  debian_8_64bit_jessie: http://rvm.io/vboxes/debian_8_jessie_64bit.box
-  fedora_19_64bit: https://atlas.hashicorp.com/boxcutter/boxes/fedora19/versions/1.0.10/providers/virtualbox.box
-  fedora_20_64bit: https://atlas.hashicorp.com/boxcutter/boxes/fedora20/versions/1.0.10/providers/virtualbox.box
-  fedora_21_64bit: https://atlas.hashicorp.com/boxcutter/boxes/fedora21/versions/1.0.10/providers/virtualbox.box
-  opensuse_123_64bit: http://rvm.io/vboxes/opensuse-12.3-NET-x86_64.box
-  opensuse_131_64bit: http://rvm.io/vboxes/opensuse-13.1-x86_64.box
-  ubuntu_1004_32bit_lucid: https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1004-i386/versions/1.0.12/providers/virtualbox.box
-  ubuntu_1004_64bit_lucid: https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1004/versions/1.0.12/providers/virtualbox.box
   ubuntu_1204_32bit_precise: https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1204-i386/versions/1.0.12/providers/virtualbox.box
   ubuntu_1204_64bit_precise: https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1204/versions/1.0.12/providers/virtualbox.box
   ubuntu_1404_64bit_trusty: https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1404/versions/2.0.26/providers/virtualbox.box

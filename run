@@ -21,6 +21,9 @@ elsif %w( du ).include? ARGV[0]
 elsif %w( upload --upload -u ).include? ARGV[0]
   system "rsync -av --rsh=ssh --progress binaries/ rvm@rvm.io:~/site/shared/public/binaries/"
   exit
+elsif %w( s3 ).include? ARGV[0]
+  system "upload-s3.sh"
+  exit
 else
   targets = ARGV
 end
